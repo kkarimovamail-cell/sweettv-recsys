@@ -1,0 +1,41 @@
+2026-10-22 01:02:02,959 | 07_ppr | INFO | val graph: {'items': 2499, 'edges_before_top_k': 1217866, 'edges_after_top_k': 120654, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0} (0.09 s)
+2026-10-22 01:02:03,997 | 07_ppr | INFO | alpha 0.30  {'map@5_A': 0.354913, 'map@5_C': 0.317993}  iters [7, 7, 7, 7]  converged True  mass(1 step) 1.38e-14  0.99 s
+2026-10-22 01:02:05,242 | 07_ppr | INFO | alpha 0.50  {'map@5_A': 0.354304, 'map@5_C': 0.31872}  iters [9, 9, 9, 9]  converged True  mass(1 step) 1.05e-14  1.24 s
+2026-10-22 01:02:06,609 | 07_ppr | INFO | alpha 0.70  {'map@5_A': 0.338701, 'map@5_C': 0.305031}  iters [10, 10, 10, 10]  converged True  mass(1 step) 1.09e-14  1.37 s
+2026-10-22 01:02:08,219 | 07_ppr | INFO | alpha 0.85  {'map@5_A': 0.305641, 'map@5_C': 0.275404}  iters [12, 12, 12, 12]  converged True  mass(1 step) 5.88e-15  1.61 s
+2026-10-22 01:02:08,235 | 07_ppr | INFO | best alpha 0.30 by map@5_A
+2026-10-22 01:02:09,079 | 07_ppr | INFO | final graph {'items': 3866, 'edges_before_top_k': 4594018, 'edges_after_top_k': 191500, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0}; fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; converged True; submission_ppr.csv: OK
+2026-10-22 01:02:48,368 | 07_ppr | INFO | val graph: {'items': 2499, 'edges_before_top_k': 1217866, 'edges_after_top_k': 120654, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0} (0.09 s)
+2026-10-22 01:02:49,690 | 07_ppr | INFO | alpha 0.30  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'history_share_A': 0.9779}  iters [7, 7, 7, 7]  converged True  mass(1 step) 1.38e-14  1.27 s
+2026-10-22 01:02:51,187 | 07_ppr | INFO | alpha 0.50  {'map@5_A': 0.354304, 'map@5_C': 0.31872, 'history_share_A': 0.9631}  iters [9, 9, 9, 9]  converged True  mass(1 step) 1.05e-14  1.50 s
+2026-10-22 01:02:52,810 | 07_ppr | INFO | alpha 0.70  {'map@5_A': 0.338701, 'map@5_C': 0.305031, 'history_share_A': 0.8929}  iters [10, 10, 10, 10]  converged True  mass(1 step) 1.09e-14  1.62 s
+2026-10-22 01:02:54,789 | 07_ppr | INFO | alpha 0.85  {'map@5_A': 0.305641, 'map@5_C': 0.275404, 'history_share_A': 0.7843}  iters [12, 12, 12, 12]  converged True  mass(1 step) 5.88e-15  1.98 s
+2026-10-22 01:02:54,797 | 07_ppr | INFO | best alpha 0.30 by map@5_A
+2026-10-22 01:02:55,727 | 07_ppr | INFO | final graph {'items': 3866, 'edges_before_top_k': 4594018, 'edges_after_top_k': 191500, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0}; fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; converged True; submission_ppr.csv: OK
+2026-10-22 01:05:04,855 | 07_ppr | INFO | val graph: {'items': 2499, 'edges_before_top_k': 1217866, 'edges_after_top_k': 120654, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0} (0.09 s)
+2026-10-22 01:05:05,912 | 07_ppr | INFO | alpha 0.10  {'map@5_A': 0.353838, 'map@5_C': 0.31627, 'history_share_A': 0.9798}  iters [5, 5, 5, 5]  converged True  mass(1 step) 7.88e-15  1.01 s
+2026-10-22 01:05:07,022 | 07_ppr | INFO | alpha 0.20  {'map@5_A': 0.354325, 'map@5_C': 0.31687, 'history_share_A': 0.9793}  iters [6, 6, 6, 6]  converged True  mass(1 step) 1.32e-14  1.11 s
+2026-10-22 01:05:08,260 | 07_ppr | INFO | alpha 0.30  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'history_share_A': 0.9779}  iters [7, 7, 7, 7]  converged True  mass(1 step) 1.38e-14  1.24 s
+2026-10-22 01:05:09,777 | 07_ppr | INFO | alpha 0.50  {'map@5_A': 0.354304, 'map@5_C': 0.31872, 'history_share_A': 0.9631}  iters [9, 9, 9, 9]  converged True  mass(1 step) 1.05e-14  1.52 s
+2026-10-22 01:05:11,405 | 07_ppr | INFO | alpha 0.70  {'map@5_A': 0.338701, 'map@5_C': 0.305031, 'history_share_A': 0.8929}  iters [10, 10, 10, 10]  converged True  mass(1 step) 1.09e-14  1.63 s
+2026-10-22 01:05:13,290 | 07_ppr | INFO | alpha 0.85  {'map@5_A': 0.305641, 'map@5_C': 0.275404, 'history_share_A': 0.7843}  iters [12, 12, 12, 12]  converged True  mass(1 step) 5.88e-15  1.88 s
+2026-10-22 01:05:13,299 | 07_ppr | INFO | best alpha 0.30 by map@5_A
+2026-10-22 01:05:14,206 | 07_ppr | INFO | final graph {'items': 3866, 'edges_before_top_k': 4594018, 'edges_after_top_k': 191500, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0}; fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; converged True; submission_ppr.csv: OK
+2026-10-22 01:10:44,725 | 07_ppr | INFO | val graph: {'items': 2499, 'edges_before_top_k': 1217866, 'edges_after_top_k': 120654, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0} (0.09 s)
+2026-10-22 01:10:45,795 | 07_ppr | INFO | alpha 0.10  {'map@5_A': 0.353838, 'map@5_C': 0.31627, 'history_share_A': 0.9798}  iters [5, 5, 5, 5]  converged True  mass(1 step) 7.88e-15  1.01 s
+2026-10-22 01:10:46,924 | 07_ppr | INFO | alpha 0.20  {'map@5_A': 0.354325, 'map@5_C': 0.31687, 'history_share_A': 0.9793}  iters [6, 6, 6, 6]  converged True  mass(1 step) 1.32e-14  1.12 s
+2026-10-22 01:10:48,178 | 07_ppr | INFO | alpha 0.30  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'history_share_A': 0.9779}  iters [7, 7, 7, 7]  converged True  mass(1 step) 1.38e-14  1.25 s
+2026-10-22 01:10:49,713 | 07_ppr | INFO | alpha 0.50  {'map@5_A': 0.354304, 'map@5_C': 0.31872, 'history_share_A': 0.9631}  iters [9, 9, 9, 9]  converged True  mass(1 step) 1.05e-14  1.53 s
+2026-10-22 01:10:51,380 | 07_ppr | INFO | alpha 0.70  {'map@5_A': 0.338701, 'map@5_C': 0.305031, 'history_share_A': 0.8929}  iters [10, 10, 10, 10]  converged True  mass(1 step) 1.09e-14  1.66 s
+2026-10-22 01:10:53,321 | 07_ppr | INFO | alpha 0.85  {'map@5_A': 0.305641, 'map@5_C': 0.275404, 'history_share_A': 0.7843}  iters [12, 12, 12, 12]  converged True  mass(1 step) 5.88e-15  1.93 s
+2026-10-22 01:10:53,328 | 07_ppr | INFO | best alpha 0.30 by map@5_A
+2026-10-22 01:10:54,232 | 07_ppr | INFO | final graph {'items': 3866, 'edges_before_top_k': 4594018, 'edges_after_top_k': 191500, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0}; fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; converged True; submission_ppr.csv: OK
+2026-10-22 01:26:59,963 | 07_ppr | INFO | val graph: {'items': 2499, 'edges_before_top_k': 1217866, 'edges_after_top_k': 120654, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0} (0.09 s)
+2026-10-22 01:27:01,030 | 07_ppr | INFO | alpha 0.10  {'map@5_A': 0.353838, 'map@5_C': 0.31627, 'history_share_A': 0.9798}  iters [5, 5, 5, 5]  converged True  mass(1 step) 7.88e-15  1.01 s
+2026-10-22 01:27:02,151 | 07_ppr | INFO | alpha 0.20  {'map@5_A': 0.354325, 'map@5_C': 0.31687, 'history_share_A': 0.9793}  iters [6, 6, 6, 6]  converged True  mass(1 step) 1.32e-14  1.11 s
+2026-10-22 01:27:03,411 | 07_ppr | INFO | alpha 0.30  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'history_share_A': 0.9779}  iters [7, 7, 7, 7]  converged True  mass(1 step) 1.38e-14  1.25 s
+2026-10-22 01:27:04,962 | 07_ppr | INFO | alpha 0.50  {'map@5_A': 0.354304, 'map@5_C': 0.31872, 'history_share_A': 0.9631}  iters [9, 9, 9, 9]  converged True  mass(1 step) 1.05e-14  1.54 s
+2026-10-22 01:27:06,631 | 07_ppr | INFO | alpha 0.70  {'map@5_A': 0.338701, 'map@5_C': 0.305031, 'history_share_A': 0.8929}  iters [10, 10, 10, 10]  converged True  mass(1 step) 1.09e-14  1.66 s
+2026-10-22 01:27:08,534 | 07_ppr | INFO | alpha 0.85  {'map@5_A': 0.305641, 'map@5_C': 0.275404, 'history_share_A': 0.7843}  iters [12, 12, 12, 12]  converged True  mass(1 step) 5.88e-15  1.90 s
+2026-10-22 01:27:08,543 | 07_ppr | INFO | best alpha 0.30 by map@5_A
+2026-10-22 01:27:09,458 | 07_ppr | INFO | final graph {'items': 3866, 'edges_before_top_k': 4594018, 'edges_after_top_k': 191500, 'dangling_items': 0, 'max_abs_row_sum_minus_1': 3.3306690738754696e-16, 'dangling_row_sum_max': 0.0}; fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; converged True; submission_ppr.csv: OK

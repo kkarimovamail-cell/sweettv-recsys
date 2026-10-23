@@ -1,0 +1,6 @@
+2026-10-22 01:39:53,173 | 12_expected | INFO | ppr_only (expected off)  A 0.366742 C 0.329417 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150}  dA [0.0, 0.0]  C-A 0.314513  same-as-v2 4030
+2026-10-22 01:39:53,415 | 12_expected | INFO | lambda=0                 A 0.323986 C 0.285397 up/down {'users_up': 209, 'users_down': 489, 'users_same': 452}  dA [-0.049997, -0.03571]  C-A 0.269988  same-as-v2 235
+2026-10-22 01:39:53,660 | 12_expected | INFO | lambda=0.01              A 0.324000 C 0.285497 up/down {'users_up': 209, 'users_down': 489, 'users_same': 452}  dA [-0.050003, -0.035687]  C-A 0.270123  same-as-v2 236
+2026-10-22 01:39:53,902 | 12_expected | INFO | lambda=0.1               A 0.325128 C 0.286658 up/down {'users_up': 213, 'users_down': 483, 'users_same': 454}  dA [-0.048748, -0.034647]  C-A 0.271296  same-as-v2 242
+2026-10-22 01:39:54,155 | 12_expected | INFO | lambda=1                 A 0.333507 C 0.294536 up/down {'users_up': 216, 'users_down': 438, 'users_same': 496}  dA [-0.039896, -0.026868]  C-A 0.278975  same-as-v2 298
+2026-10-22 01:39:54,157 | 12_expected | INFO | best lambda=1 improved False

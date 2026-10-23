@@ -1,0 +1,3 @@
+2026-10-22 01:15:40,415 | 10_final | INFO | candidates (MAP@5 A, then fewer components): [('ppr', 'alpha=0.3', 0.354913), ('hybrid', 'w=1', 0.354913), ('popularity', 'popularity', 0.235699), ('mf', 'f64_reg0.01_a10', 0.167461)]
+2026-10-22 01:15:40,415 | 10_final | INFO | chosen: ppr alpha=0.3
+2026-10-22 01:15:41,378 | 10_final | INFO | submission_final.csv md5 0c3f221d01a484c8c6b7b910925cd1da, identical to ['submission_ppr.csv'], validation OK, 0.96 s

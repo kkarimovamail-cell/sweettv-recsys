@@ -1,0 +1,4 @@
+2026-10-22 00:53:45,914 | 06_submission | INFO | submission_popularity.csv: train weeks (11, 30), pool 6642, fill {'users': 1260, 'users_without_own_ids': 1260, 'users_topped_up': 1260, 'slots_from_popularity': 6300}
+2026-10-22 00:53:45,914 | 06_submission | INFO | validation: OK
+2026-10-22 01:00:41,754 | 06_submission | INFO | submission_popularity.csv: train weeks (11, 30), pool 6642, fill {'users': 1260, 'users_without_own_ids': 1260, 'users_topped_up': 1260, 'slots_from_popularity': 6300}
+2026-10-22 01:00:41,755 | 06_submission | INFO | validation: OK

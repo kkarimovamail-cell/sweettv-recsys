@@ -1,0 +1,14 @@
+# data and intermediate tables
+*.csv
+!submissions/*.csv
+*.parquet
+outputs/interim/
+outputs/nb_check/
+
+# environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store

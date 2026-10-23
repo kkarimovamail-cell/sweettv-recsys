@@ -1,0 +1,486 @@
+{
+  "log": {
+    "rows": 5821987,
+    "users": 4914,
+    "channels": 202,
+    "user_id_digits_max": 20,
+    "user_id_above_int64_max_rows": 2918899,
+    "start_time": {
+      "min": "2020-03-09 00:00:02",
+      "max": "2020-07-26 23:58:42",
+      "iso_years": [
+        2020
+      ],
+      "iso_week_min": 11,
+      "iso_week_max": 30,
+      "n_iso_weeks": 20
+    },
+    "stop_time": {
+      "min": "2020-03-09 00:01:26",
+      "max": "2020-07-26 23:59:58"
+    },
+    "duraton_quantiles_s": {
+      "0": 61.0,
+      "0.01": 62.0,
+      "0.05": 69.0,
+      "0.25": 133.0,
+      "0.5": 396.0,
+      "0.75": 1452.0,
+      "0.95": 6344.0,
+      "0.99": 14079.139999999665,
+      "1": 342145.0
+    },
+    "duraton_ne_stop_minus_start_rows": 117,
+    "duraton_mismatch_diff_s": {
+      "3600": 117
+    },
+    "duraton_mismatch_start_dates": {
+      "2020-03-29": 115,
+      "2020-03-28": 2
+    },
+    "duraton_le_0_rows": 0,
+    "sessions_crossing_midnight": 119856,
+    "exact_duplicate_rows": 17
+  },
+  "schedule": {
+    "11-20": {
+      "rows": 1074235,
+      "channels": 400,
+      "start_time": {
+        "min": "2020-03-08 23:00:00",
+        "max": "2020-05-18 11:45:00",
+        "iso_years": [
+          2020
+        ],
+        "iso_week_min": 10,
+        "iso_week_max": 21,
+        "n_iso_weeks": 12
+      },
+      "tv_show_id_non_numeric_rows": 0,
+      "labelled_rows": 115613,
+      "unlabelled_rows": 958622,
+      "labelled_share": 0.1076,
+      "distinct_programmes": 5847,
+      "distinct_tv_show_id_incl_0": 5848,
+      "rows_outside_nominal_weeks": 2517,
+      "labelled_rows_outside_nominal_weeks": 304,
+      "outside_rows_by_week": {
+        "10": 86,
+        "21": 2431
+      },
+      "categories": [
+        "Детям",
+        "Другое",
+        "Инфо",
+        "Музыка",
+        "Познавательное",
+        "Развлечения",
+        "Сериалы",
+        "Спорт",
+        "Фильмы"
+      ],
+      "duration_quantiles_s": {
+        "0": 0.0,
+        "0.01": 60.0,
+        "0.05": 180.0,
+        "0.25": 600.0,
+        "0.5": 1500.0,
+        "0.75": 3000.0,
+        "0.95": 6900.0,
+        "0.99": 12600.0,
+        "1": 86400.0
+      },
+      "duration_le_0_rows": 1,
+      "duration_null_rows": 0,
+      "exact_duplicate_rows": 0,
+      "duplicate_channel_start_rows": 1,
+      "overlap_with_next_rows": 2,
+      "gap_before_next_rows": 396
+    },
+    "21-30": {
+      "rows": 1074394,
+      "channels": 403,
+      "start_time": {
+        "min": "2020-05-18 00:00:00",
+        "max": "2020-07-27 11:55:00",
+        "iso_years": [
+          2020
+        ],
+        "iso_week_min": 21,
+        "iso_week_max": 31,
+        "n_iso_weeks": 11
+      },
+      "tv_show_id_non_numeric_rows": 0,
+      "labelled_rows": 121505,
+      "unlabelled_rows": 952889,
+      "labelled_share": 0.1131,
+      "distinct_programmes": 6363,
+      "distinct_tv_show_id_incl_0": 6364,
+      "rows_outside_nominal_weeks": 2429,
+      "labelled_rows_outside_nominal_weeks": 267,
+      "outside_rows_by_week": {
+        "31": 2429
+      },
+      "categories": [
+        "Детям",
+        "Другое",
+        "Инфо",
+        "Музыка",
+        "Познавательное",
+        "Развлечения",
+        "Сериалы",
+        "Спорт",
+        "Фильмы"
+      ],
+      "duration_quantiles_s": {
+        "0": 60.0,
+        "0.01": 120.0,
+        "0.05": 180.0,
+        "0.25": 600.0,
+        "0.5": 1500.0,
+        "0.75": 3000.0,
+        "0.95": 7200.0,
+        "0.99": 13200.0,
+        "1": 86400.0
+      },
+      "duration_le_0_rows": 0,
+      "duration_null_rows": 0,
+      "exact_duplicate_rows": 0,
+      "duplicate_channel_start_rows": 0,
+      "overlap_with_next_rows": 2,
+      "gap_before_next_rows": 3
+    },
+    "31-42": {
+      "rows": 1295378,
+      "channels": 404,
+      "start_time": {
+        "min": "2020-07-27 00:00:00",
+        "max": "2020-10-19 11:55:00",
+        "iso_years": [
+          2020
+        ],
+        "iso_week_min": 31,
+        "iso_week_max": 43,
+        "n_iso_weeks": 13
+      },
+      "tv_show_id_non_numeric_rows": 0,
+      "labelled_rows": 144774,
+      "unlabelled_rows": 1150604,
+      "labelled_share": 0.1118,
+      "distinct_programmes": 6636,
+      "distinct_tv_show_id_incl_0": 6637,
+      "rows_outside_nominal_weeks": 2399,
+      "labelled_rows_outside_nominal_weeks": 257,
+      "outside_rows_by_week": {
+        "43": 2399
+      },
+      "categories": [
+        "Детям",
+        "Другое",
+        "Инфо",
+        "Музыка",
+        "Познавательное",
+        "Развлечения",
+        "Сериалы",
+        "Спорт",
+        "Фильмы"
+      ],
+      "duration_quantiles_s": {
+        "0": 60.0,
+        "0.01": 120.0,
+        "0.05": 180.0,
+        "0.25": 600.0,
+        "0.5": 1500.0,
+        "0.75": 3000.0,
+        "0.95": 7200.0,
+        "0.99": 13500.0,
+        "1": 43200.0
+      },
+      "duration_le_0_rows": 0,
+      "duration_null_rows": 0,
+      "exact_duplicate_rows": 0,
+      "duplicate_channel_start_rows": 0,
+      "overlap_with_next_rows": 8,
+      "gap_before_next_rows": 4
+    }
+  },
+  "schedule_11-20_vs_21-30_boundary": {
+    "exact_duplicate_rows": 0,
+    "duplicate_channel_start_rows": 1,
+    "overlap_with_next_rows_after_concat": 5,
+    "max_start_11-20": "2020-05-18 11:45:00",
+    "min_start_21-30": "2020-05-18 00:00:00"
+  },
+  "log_channels_in_train_schedule": {
+    "log_channels": 202,
+    "found_in_schedule": 197,
+    "log_rows_on_found_channels_share": 0.9805
+  },
+  "submission": {
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "distinct_users": 1260,
+    "matches_task_1260": true,
+    "in_log_weeks_11_20": 1256,
+    "in_log_weeks_21_30": 1246,
+    "in_log_any": 1260,
+    "in_both_periods": 1242,
+    "absent_from_log": 0,
+    "note": "weeks from unshifted log start_time"
+  },
+  "date_parsing_trap": {
+    "sample_size": 10000,
+    "source": "export_arh_11-20-final.csv",
+    "vectorised_no_format": {
+      "seed_sample_as_is": {
+        "first_value": "16.04.2020 08:55:00",
+        "n": 10000,
+        "error": null,
+        "mismatches": 0,
+        "warnings": [
+          "Parsing dates in %d.%m.%Y %H:%M:%S format when dayfirst=False (the default) was specified. Pass `dayfirst=True` or specify a format to silence this warning."
+        ]
+      },
+      "seed_sample_ambiguous_first": {
+        "first_value": "03.05.2020 03:35:00",
+        "n": 10000,
+        "error": "ValueError: time data \"16.04.2020 08:55:00\" doesn't match format \"%m.%d.%Y %H:%M:%S\". You might want to try:",
+        "mismatches": null,
+        "warnings": []
+      },
+      "full_file_original_order": {
+        "first_value": "09.03.2020 06:00:00",
+        "n": 1074235,
+        "error": "ValueError: time data \"13.03.2020 00:50:00\" doesn't match format \"%m.%d.%Y %H:%M:%S\". You might want to try:",
+        "mismatches": null,
+        "warnings": []
+      }
+    },
+    "elementwise_no_format": {
+      "mismatches": 3729,
+      "mismatch_share": 0.3729,
+      "ambiguous_in_sample": 3729,
+      "examples": [
+        {
+          "raw": "03.05.2020 03:35:00",
+          "correct": "2020-05-03 03:35:00",
+          "parsed": "2020-03-05 03:35:00"
+        },
+        {
+          "raw": "12.03.2020 20:00:00",
+          "correct": "2020-03-12 20:00:00",
+          "parsed": "2020-12-03 20:00:00"
+        },
+        {
+          "raw": "12.05.2020 19:00:00",
+          "correct": "2020-05-12 19:00:00",
+          "parsed": "2020-12-05 19:00:00"
+        }
+      ]
+    }
+  },
+  "timezone": {
+    "sample_size": 200000,
+    "seed": 42,
+    "tolerance_s": 120,
+    "sessions_on_channels_without_schedule": 113579,
+    "schedule_used": "11-20 + 21-30, all rows (boundaries do not depend on tv_show_id)",
+    "rule": "apply a shift only if the same variant leads for starts and ends by >= 2.0 p.p.",
+    "table": {
+      "-3h": {
+        "starts_within_120s_pct": 6.99,
+        "ends_within_120s_pct": 6.99
+      },
+      "-2h": {
+        "starts_within_120s_pct": 6.97,
+        "ends_within_120s_pct": 6.87
+      },
+      "-1h": {
+        "starts_within_120s_pct": 6.96,
+        "ends_within_120s_pct": 6.76
+      },
+      "+0h": {
+        "starts_within_120s_pct": 7.23,
+        "ends_within_120s_pct": 9.01
+      },
+      "+1h": {
+        "starts_within_120s_pct": 6.65,
+        "ends_within_120s_pct": 6.48
+      },
+      "+2h": {
+        "starts_within_120s_pct": 6.59,
+        "ends_within_120s_pct": 6.63
+      },
+      "+3h": {
+        "starts_within_120s_pct": 6.46,
+        "ends_within_120s_pct": 6.43
+      },
+      "dst_-2h/-3h": {
+        "starts_within_120s_pct": 7.02,
+        "ends_within_120s_pct": 6.96
+      },
+      "dst_+2h/+3h": {
+        "starts_within_120s_pct": 6.52,
+        "ends_within_120s_pct": 6.47
+      }
+    },
+    "best_for_starts": "+0h",
+    "margin_starts_pp": 0.21,
+    "best_for_ends": "+0h",
+    "margin_ends_pp": 2.02,
+    "clear_winner": false,
+    "decision": "+0h"
+  },
+  "check_vs_task": {
+    "rows": {
+      "log": [
+        5821987,
+        5821987
+      ],
+      "11-20": [
+        1074235,
+        1074235
+      ],
+      "21-30": [
+        1074394,
+        1074394
+      ],
+      "31-42": [
+        1295378,
+        1295378
+      ]
+    },
+    "labelled_rows_11-20": [
+      115613,
+      115613
+    ],
+    "distinct_programmes": {
+      "11-20": [
+        5848,
+        5847
+      ],
+      "21-30": [
+        6364,
+        6363
+      ],
+      "31-42": [
+        6637,
+        6636
+      ]
+    },
+    "distinct_tv_show_id_incl_0": {
+      "11-20": [
+        5848,
+        5848
+      ],
+      "21-30": [
+        6364,
+        6364
+      ],
+      "31-42": [
+        6637,
+        6637
+      ]
+    },
+    "channels": {
+      "11-20": [
+        400,
+        400
+      ],
+      "21-30": [
+        403,
+        403
+      ],
+      "31-42": [
+        404,
+        404
+      ]
+    },
+    "duraton_median": [
+      396,
+      396.0
+    ],
+    "duraton_max": [
+      342145,
+      342145.0
+    ],
+    "_format": "[task, observed]"
+  },
+  "cache": {
+    "log.parquet": {
+      "rows": 5821987,
+      "mb": 83.4,
+      "dtypes": {
+        "user_id": "str",
+        "channel_id": "int32",
+        "start_time": "datetime64[us]",
+        "stop_time": "datetime64[us]",
+        "duraton": "int32"
+      }
+    },
+    "schedule_11-20.parquet": {
+      "rows": 1074235,
+      "mb": 13.3,
+      "dtypes": {
+        "channel_id": "int32",
+        "channel_title": "str",
+        "start_time": "datetime64[us]",
+        "duration": "int64",
+        "tv_show_title": "str",
+        "tv_show_id": "str",
+        "tv_show_category": "str",
+        "tv_show_genre_1": "str",
+        "tv_show_genre_2": "str",
+        "tv_show_genre_3": "str",
+        "year_of_production": "str",
+        "director": "str",
+        "actors": "str"
+      }
+    },
+    "schedule_21-30.parquet": {
+      "rows": 1074394,
+      "mb": 13.4,
+      "dtypes": {
+        "channel_id": "int32",
+        "channel_title": "str",
+        "start_time": "datetime64[us]",
+        "duration": "int64",
+        "tv_show_title": "str",
+        "tv_show_id": "str",
+        "tv_show_category": "str",
+        "tv_show_genre_1": "str",
+        "tv_show_genre_2": "str",
+        "tv_show_genre_3": "str",
+        "year_of_production": "str",
+        "director": "str",
+        "actors": "str"
+      }
+    },
+    "schedule_31-42.parquet": {
+      "rows": 1295378,
+      "mb": 15.8,
+      "dtypes": {
+        "channel_id": "int32",
+        "channel_title": "str",
+        "start_time": "datetime64[us]",
+        "duration": "int64",
+        "tv_show_title": "str",
+        "tv_show_id": "str",
+        "tv_show_category": "str",
+        "tv_show_genre_1": "str",
+        "tv_show_genre_2": "str",
+        "tv_show_genre_3": "str",
+        "year_of_production": "str",
+        "director": "str",
+        "actors": "str"
+      }
+    }
+  },
+  "runtime": {
+    "seconds": 20.1,
+    "rss_at_end_mb": 2790
+  }
+}

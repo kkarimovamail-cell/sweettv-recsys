@@ -1,0 +1,40 @@
+2026-10-22 01:27:49,673 | 11_improve | INFO | exp1 beta 0    {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'vs_baseline_A': {'users_up': 0, 'users_down': 0, 'users_same': 1150}}
+2026-10-22 01:27:50,931 | 11_improve | INFO | exp1 beta 0.25 {'map@5_A': 0.361603, 'map@5_C': 0.327078, 'vs_baseline_A': {'users_up': 301, 'users_down': 208, 'users_same': 641}}
+2026-10-22 01:27:52,187 | 11_improve | INFO | exp1 beta 0.5  {'map@5_A': 0.348464, 'map@5_C': 0.317194, 'vs_baseline_A': {'users_up': 332, 'users_down': 342, 'users_same': 476}}
+2026-10-22 01:27:53,441 | 11_improve | INFO | exp1 beta 0.75 {'map@5_A': 0.324055, 'map@5_C': 0.298336, 'vs_baseline_A': {'users_up': 299, 'users_down': 513, 'users_same': 338}}
+2026-10-22 01:27:54,711 | 11_improve | INFO | exp1 beta 1    {'map@5_A': 0.299525, 'map@5_C': 0.276706, 'vs_baseline_A': {'users_up': 276, 'users_down': 597, 'users_same': 277}}
+2026-10-22 01:27:54,711 | 11_improve | INFO | exp2 H inf  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'vs_baseline_A': {'users_up': 0, 'users_down': 0, 'users_same': 1150}}
+2026-10-22 01:27:56,136 | 11_improve | INFO | exp2 H 8    {'map@5_A': 0.357409, 'map@5_C': 0.317888, 'vs_baseline_A': {'users_up': 181, 'users_down': 162, 'users_same': 807}}
+2026-10-22 01:27:57,588 | 11_improve | INFO | exp2 H 4    {'map@5_A': 0.355754, 'map@5_C': 0.315774, 'vs_baseline_A': {'users_up': 240, 'users_down': 258, 'users_same': 652}}
+2026-10-22 01:27:59,126 | 11_improve | INFO | exp2 H 2    {'map@5_A': 0.339988, 'map@5_C': 0.303443, 'vs_baseline_A': {'users_up': 262, 'users_down': 404, 'users_same': 484}}
+2026-10-22 01:28:00,406 | 11_improve | INFO | exp3 beta 0    H inf  {'map@5_A': 0.354913, 'map@5_C': 0.317993}
+2026-10-22 01:28:01,778 | 11_improve | INFO | exp3 beta 0    H 8    {'map@5_A': 0.357409, 'map@5_C': 0.317888}
+2026-10-22 01:28:03,127 | 11_improve | INFO | exp3 beta 0    H 4    {'map@5_A': 0.355754, 'map@5_C': 0.315774}
+2026-10-22 01:28:04,408 | 11_improve | INFO | exp3 beta 0.25 H inf  {'map@5_A': 0.361603, 'map@5_C': 0.327078}
+2026-10-22 01:28:05,738 | 11_improve | INFO | exp3 beta 0.25 H 8    {'map@5_A': 0.365809, 'map@5_C': 0.329949}
+2026-10-22 01:28:07,090 | 11_improve | INFO | exp3 beta 0.25 H 4    {'map@5_A': 0.366742, 'map@5_C': 0.329417}
+2026-10-22 01:28:08,378 | 11_improve | INFO | exp3 beta 0.5  H inf  {'map@5_A': 0.348464, 'map@5_C': 0.317194}
+2026-10-22 01:28:09,722 | 11_improve | INFO | exp3 beta 0.5  H 8    {'map@5_A': 0.350223, 'map@5_C': 0.319361}
+2026-10-22 01:28:11,072 | 11_improve | INFO | exp3 beta 0.5  H 4    {'map@5_A': 0.350591, 'map@5_C': 0.319609}
+2026-10-22 01:28:11,072 | 11_improve | INFO | best {'beta': 0.25, 'half_life': '4', 'map@5_A': 0.366742, 'map@5_C': 0.329417, 'vs_baseline_A': {'users_up': 360, 'users_down': 252, 'users_same': 538}}; improved True
+2026-10-22 01:28:12,153 | 11_improve | INFO | v2: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'train_weeks': [11, 30], 'n_airings_column': 'n_airings_w31_42', 'fill': {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}, 'converged': True, 'submission': 'submission_v2.csv', 'md5': '90d862a059c25042fd091c96ad9b082e', 'validation_errors': [], 'runtime_s': 1.08}
+2026-10-22 01:28:40,753 | 11_improve | INFO | exp1 beta 0    {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'vs_baseline_A': {'users_up': 0, 'users_down': 0, 'users_same': 1150}}
+2026-10-22 01:28:42,064 | 11_improve | INFO | exp1 beta 0.25 {'map@5_A': 0.361603, 'map@5_C': 0.327078, 'vs_baseline_A': {'users_up': 301, 'users_down': 208, 'users_same': 641}}
+2026-10-22 01:28:43,522 | 11_improve | INFO | exp1 beta 0.5  {'map@5_A': 0.348464, 'map@5_C': 0.317194, 'vs_baseline_A': {'users_up': 332, 'users_down': 342, 'users_same': 476}}
+2026-10-22 01:28:44,893 | 11_improve | INFO | exp1 beta 0.75 {'map@5_A': 0.324055, 'map@5_C': 0.298336, 'vs_baseline_A': {'users_up': 299, 'users_down': 513, 'users_same': 338}}
+2026-10-22 01:28:46,230 | 11_improve | INFO | exp1 beta 1    {'map@5_A': 0.299525, 'map@5_C': 0.276706, 'vs_baseline_A': {'users_up': 276, 'users_down': 597, 'users_same': 277}}
+2026-10-22 01:28:47,549 | 11_improve | INFO | exp2 H inf  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'vs_baseline_A': {'users_up': 0, 'users_down': 0, 'users_same': 1150}}
+2026-10-22 01:28:49,044 | 11_improve | INFO | exp2 H 8    {'map@5_A': 0.357409, 'map@5_C': 0.317888, 'vs_baseline_A': {'users_up': 181, 'users_down': 162, 'users_same': 807}}
+2026-10-22 01:28:50,570 | 11_improve | INFO | exp2 H 4    {'map@5_A': 0.355754, 'map@5_C': 0.315774, 'vs_baseline_A': {'users_up': 240, 'users_down': 258, 'users_same': 652}}
+2026-10-22 01:28:52,172 | 11_improve | INFO | exp2 H 2    {'map@5_A': 0.339988, 'map@5_C': 0.303443, 'vs_baseline_A': {'users_up': 262, 'users_down': 404, 'users_same': 484}}
+2026-10-22 01:28:53,507 | 11_improve | INFO | exp3 beta 0    H inf  {'map@5_A': 0.354913, 'map@5_C': 0.317993}
+2026-10-22 01:28:54,885 | 11_improve | INFO | exp3 beta 0    H 8    {'map@5_A': 0.357409, 'map@5_C': 0.317888}
+2026-10-22 01:28:56,287 | 11_improve | INFO | exp3 beta 0    H 4    {'map@5_A': 0.355754, 'map@5_C': 0.315774}
+2026-10-22 01:28:57,610 | 11_improve | INFO | exp3 beta 0.25 H inf  {'map@5_A': 0.361603, 'map@5_C': 0.327078}
+2026-10-22 01:28:58,977 | 11_improve | INFO | exp3 beta 0.25 H 8    {'map@5_A': 0.365809, 'map@5_C': 0.329949}
+2026-10-22 01:29:00,374 | 11_improve | INFO | exp3 beta 0.25 H 4    {'map@5_A': 0.366742, 'map@5_C': 0.329417}
+2026-10-22 01:29:01,732 | 11_improve | INFO | exp3 beta 0.5  H inf  {'map@5_A': 0.348464, 'map@5_C': 0.317194}
+2026-10-22 01:29:03,113 | 11_improve | INFO | exp3 beta 0.5  H 8    {'map@5_A': 0.350223, 'map@5_C': 0.319361}
+2026-10-22 01:29:04,517 | 11_improve | INFO | exp3 beta 0.5  H 4    {'map@5_A': 0.350591, 'map@5_C': 0.319609}
+2026-10-22 01:29:04,517 | 11_improve | INFO | best {'beta': 0.25, 'half_life': '4', 'map@5_A': 0.366742, 'map@5_C': 0.329417, 'vs_baseline_A': {'users_up': 360, 'users_down': 252, 'users_same': 538}}; improved True
+2026-10-22 01:29:05,618 | 11_improve | INFO | v2: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'train_weeks': [11, 30], 'n_airings_column': 'n_airings_w31_42', 'fill': {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}, 'converged': True, 'submission': 'submission_v2.csv', 'md5': '90d862a059c25042fd091c96ad9b082e', 'validation_errors': [], 'runtime_s': 1.1}

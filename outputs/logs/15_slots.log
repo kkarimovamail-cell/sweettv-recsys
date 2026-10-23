@@ -1,0 +1,30 @@
+2026-10-22 01:55:54,154 | 15_slots | INFO | profile: 699119 (user, slot) cells for 4831 users; target airings 121521 in 45356 (programme, slot) cells
+2026-10-22 01:55:54,401 | 15_slots | INFO | slot_only {'map@5_A': 0.376119, 'map@5_C': 0.340018, 'new_share_A': 0.1442, 'new_slots_A': 829, 'new_slots_in_truth_A': 101}
+2026-10-22 01:55:54,730 | 15_slots | INFO | lambda 0.0  A 0.376119 C 0.340028 up/down {'users_up': 348, 'users_down': 374, 'users_same': 428} dA [-0.007934, 0.004948] C-A 0.325617 new 0.1440 same-as-v5 113
+2026-10-22 01:55:55,065 | 15_slots | INFO | lambda 0.1  A 0.377800 C 0.341888 up/down {'users_up': 333, 'users_down': 367, 'users_same': 450} dA [-0.00607, 0.006441] C-A 0.327547 new 0.1363 same-as-v5 135
+2026-10-22 01:55:55,405 | 15_slots | INFO | lambda 0.5  A 0.381177 C 0.345483 up/down {'users_up': 312, 'users_down': 305, 'users_same': 533} dA [-0.002142, 0.009255] C-A 0.331230 new 0.1176 same-as-v5 273
+2026-10-22 01:55:55,757 | 15_slots | INFO | lambda 1.0  A 0.382971 C 0.346758 up/down {'users_up': 284, 'users_down': 251, 'users_same': 615} dA [0.000669, 0.010136] C-A 0.332299 new 0.1068 same-as-v5 464
+2026-10-22 01:55:56,068 | 15_slots | INFO | lambda inf  A 0.377609 C 0.341646 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.327286 new 0.0997 same-as-v5 4030
+2026-10-22 01:55:56,068 | 15_slots | INFO | best lambda=1.0 accepted True
+2026-10-22 01:56:00,562 | 15_slots | INFO | v6: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'mode': 'soft', 't': 0.1, 'lambda': 1.0, 'train_weeks': [11, 30], 'fill': {'users': 1260, 'users_without_own_ids': 2, 'users_topped_up': 2, 'slots_from_popularity': 10}, 'submission': 'submission_v6.csv', 'md5': 'ecbf2703eb91429edc8e6d313c48d731', 'validation_errors': [], 'runtime_s': 4.49}
+2026-10-22 01:59:37,280 | 15_slots | INFO | profile: 699119 (user, slot) cells for 4831 users; target airings 121521 in 45356 (programme, slot) cells
+2026-10-22 01:59:37,525 | 15_slots | INFO | slot_only {'map@5_A': 0.376119, 'map@5_C': 0.340018, 'new_share_A': 0.1442, 'new_slots_A': 829, 'new_slots_in_truth_A': 101}
+2026-10-22 01:59:37,846 | 15_slots | INFO | lambda 0.0  A 0.376119 C 0.340028 up/down {'users_up': 348, 'users_down': 374, 'users_same': 428} dA [-0.007934, 0.004948] C-A 0.325617 new 0.1440 same-as-v5 113
+2026-10-22 01:59:38,169 | 15_slots | INFO | lambda 0.1  A 0.377800 C 0.341888 up/down {'users_up': 333, 'users_down': 367, 'users_same': 450} dA [-0.00607, 0.006441] C-A 0.327547 new 0.1363 same-as-v5 135
+2026-10-22 01:59:38,491 | 15_slots | INFO | lambda 0.5  A 0.381177 C 0.345483 up/down {'users_up': 312, 'users_down': 305, 'users_same': 533} dA [-0.002142, 0.009255] C-A 0.331230 new 0.1176 same-as-v5 273
+2026-10-22 01:59:38,824 | 15_slots | INFO | lambda 1.0  A 0.382971 C 0.346758 up/down {'users_up': 284, 'users_down': 251, 'users_same': 615} dA [0.000669, 0.010136] C-A 0.332299 new 0.1068 same-as-v5 464
+2026-10-22 01:59:39,145 | 15_slots | INFO | lambda 2.0  A 0.383484 C 0.346600 up/down {'users_up': 237, 'users_down': 183, 'users_same': 730} dA [0.001904, 0.009676] C-A 0.331872 new 0.1009 same-as-v5 887
+2026-10-22 01:59:39,469 | 15_slots | INFO | lambda 4.0  A 0.382357 C 0.345744 up/down {'users_up': 184, 'users_down': 120, 'users_same': 846} dA [0.001751, 0.007609] C-A 0.331124 new 0.0976 same-as-v5 1594
+2026-10-22 01:59:39,769 | 15_slots | INFO | lambda inf  A 0.377609 C 0.341646 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.327286 new 0.0997 same-as-v5 4030
+2026-10-22 01:59:39,770 | 15_slots | INFO | best lambda=2.0 accepted True
+2026-10-22 01:59:44,174 | 15_slots | INFO | v6: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'mode': 'soft', 't': 0.1, 'lambda': 2.0, 'train_weeks': [11, 30], 'fill': {'users': 1260, 'users_without_own_ids': 2, 'users_topped_up': 2, 'slots_from_popularity': 10}, 'submission': 'submission_v6.csv', 'md5': '8ae175719e567561c28b417166fcc336', 'validation_errors': [], 'runtime_s': 4.4}
+2026-10-22 19:20:11,834 | 15_slots | INFO | profile: 699119 (user, slot) cells for 4831 users; target airings 121521 in 45356 (programme, slot) cells
+2026-10-22 19:20:12,129 | 15_slots | INFO | slot_only {'map@5_A': 0.376119, 'map@5_C': 0.340018, 'new_share_A': 0.1442, 'new_slots_A': 829, 'new_slots_in_truth_A': 101}
+2026-10-22 19:20:12,458 | 15_slots | INFO | lambda 0.0  A 0.376119 C 0.340028 up/down {'users_up': 348, 'users_down': 374, 'users_same': 428} dA [-0.007934, 0.004948] C-A 0.325617 new 0.1440 same-as-v5 113
+2026-10-22 19:20:12,806 | 15_slots | INFO | lambda 0.1  A 0.377800 C 0.341888 up/down {'users_up': 333, 'users_down': 367, 'users_same': 450} dA [-0.00607, 0.006441] C-A 0.327547 new 0.1363 same-as-v5 135
+2026-10-22 19:20:13,136 | 15_slots | INFO | lambda 0.5  A 0.381177 C 0.345483 up/down {'users_up': 312, 'users_down': 305, 'users_same': 533} dA [-0.002142, 0.009255] C-A 0.331230 new 0.1176 same-as-v5 273
+2026-10-22 19:20:13,476 | 15_slots | INFO | lambda 1.0  A 0.382971 C 0.346758 up/down {'users_up': 284, 'users_down': 251, 'users_same': 615} dA [0.000669, 0.010136] C-A 0.332299 new 0.1068 same-as-v5 464
+2026-10-22 19:20:13,809 | 15_slots | INFO | lambda 2.0  A 0.383484 C 0.346600 up/down {'users_up': 237, 'users_down': 183, 'users_same': 730} dA [0.001904, 0.009676] C-A 0.331872 new 0.1009 same-as-v5 887
+2026-10-22 19:20:14,131 | 15_slots | INFO | lambda 4.0  A 0.382357 C 0.345744 up/down {'users_up': 184, 'users_down': 120, 'users_same': 846} dA [0.001751, 0.007609] C-A 0.331124 new 0.0976 same-as-v5 1594
+2026-10-22 19:20:14,436 | 15_slots | INFO | lambda inf  A 0.377609 C 0.341646 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.327286 new 0.0997 same-as-v5 4030
+2026-10-22 19:20:14,436 | 15_slots | INFO | best lambda=2.0 accepted True

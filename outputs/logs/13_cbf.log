@@ -1,0 +1,14 @@
+2026-10-22 01:44:53,526 | 13_cbf | INFO | CBF {'map@5_A': 0.207052, 'map@5_C': 0.182445, 'repeat_share_A': 0.5038, 'new_share_A': 0.4962, 'new_slots_in_truth_A': 55}
+2026-10-22 01:44:53,526 | 13_cbf | INFO | v2 reference {'map@5_A': 0.366742, 'map@5_C': 0.329417, 'repeat_share_A': 0.9631, 'new_share_A': 0.0369, 'new_slots_A': 212, 'new_slots_in_truth_A': 31, 'new_slot_hit_rate_A': 0.1462}
+2026-10-22 01:44:56,083 | 13_cbf | INFO | mu 0     A 0.366742 C 0.329417 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.314513 new 0.0369 same-as-v2 4030
+2026-10-22 01:44:56,411 | 13_cbf | INFO | mu 0.05  A 0.365612 C 0.329519 up/down {'users_up': 91, 'users_down': 90, 'users_same': 969} dA [-0.003345, 0.001293] C-A 0.315108 new 0.0417 same-as-v2 2332
+2026-10-22 01:44:56,737 | 13_cbf | INFO | mu 0.1   A 0.362165 C 0.326553 up/down {'users_up': 145, 'users_down': 160, 'users_same': 845} dA [-0.007835, -0.001151] C-A 0.312333 new 0.0579 same-as-v2 1489
+2026-10-22 01:44:57,068 | 13_cbf | INFO | mu 0.25  A 0.344322 C 0.311495 up/down {'users_up': 190, 'users_down': 316, 'users_same': 644} dA [-0.027635, -0.016999] C-A 0.298388 new 0.1216 same-as-v2 522
+2026-10-22 01:44:57,069 | 13_cbf | INFO | best mu=0 improved False
+2026-10-22 19:20:18,476 | 13_cbf | INFO | CBF {'map@5_A': 0.207052, 'map@5_C': 0.182445, 'repeat_share_A': 0.5038, 'new_share_A': 0.4962, 'new_slots_in_truth_A': 55}
+2026-10-22 19:20:18,477 | 13_cbf | INFO | v2 reference {'map@5_A': 0.366742, 'map@5_C': 0.329417, 'repeat_share_A': 0.9631, 'new_share_A': 0.0369, 'new_slots_A': 212, 'new_slots_in_truth_A': 31, 'new_slot_hit_rate_A': 0.1462}
+2026-10-22 19:20:21,104 | 13_cbf | INFO | mu 0     A 0.366742 C 0.329417 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.314513 new 0.0369 same-as-v2 4030
+2026-10-22 19:20:21,435 | 13_cbf | INFO | mu 0.05  A 0.365612 C 0.329519 up/down {'users_up': 91, 'users_down': 90, 'users_same': 969} dA [-0.003345, 0.001293] C-A 0.315108 new 0.0417 same-as-v2 2332
+2026-10-22 19:20:21,762 | 13_cbf | INFO | mu 0.1   A 0.362165 C 0.326553 up/down {'users_up': 145, 'users_down': 160, 'users_same': 845} dA [-0.007835, -0.001151] C-A 0.312333 new 0.0579 same-as-v2 1489
+2026-10-22 19:20:22,095 | 13_cbf | INFO | mu 0.25  A 0.344322 C 0.311495 up/down {'users_up': 190, 'users_down': 316, 'users_same': 644} dA [-0.027635, -0.016999] C-A 0.298388 new 0.1216 same-as-v2 522
+2026-10-22 19:20:22,096 | 13_cbf | INFO | best mu=0 improved False

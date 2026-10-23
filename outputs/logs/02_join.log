@@ -1,0 +1,12 @@
+2026-10-22 00:47:39,067 | 02_join | INFO | sessions 5821987 -> 5725415 after merge; airings 237118
+2026-10-22 00:47:39,971 | 02_join | INFO | pairs 3014129, watched 611760
+2026-10-22 00:47:43,596 | 02_join | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/join_stats.json in 6.8 s
+2026-10-22 00:49:04,774 | 02_join | INFO | sessions 5821987 -> 5725415 after merge; airings 237118
+2026-10-22 00:49:05,728 | 02_join | INFO | pairs 3014129, watched 611760
+2026-10-22 00:49:09,545 | 02_join | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/join_stats.json in 7.2 s
+2026-10-22 01:00:34,908 | 02_join | INFO | sessions 5821987 -> 5725415 after merge; airings 237118
+2026-10-22 01:00:35,817 | 02_join | INFO | pairs 3014129, watched 611760
+2026-10-22 01:00:39,240 | 02_join | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/join_stats.json in 7.1 s
+2026-10-22 01:43:36,241 | 02_join | INFO | sessions 5821987 -> 5725415 after merge; airings 237118
+2026-10-22 01:43:37,115 | 02_join | INFO | pairs 3014129, watched 611760
+2026-10-22 01:43:40,858 | 02_join | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/join_stats.json in 7.6 s

@@ -1,0 +1,233 @@
+{
+  "chosen": "v7",
+  "scoring_rule": {
+    "primary_score": "kaggle_private",
+    "reference_only": "kaggle_public",
+    "rule": "the exam grades only the best Kaggle PRIVATE score; public is reported for reference only (clarified by the author on 2026-10-23; exam_quiz_GSB.md in the folder still has the older wording about public)"
+  },
+  "method": "LGBMRanker (lambdarank) re-ranking on top of v6",
+  "config": {
+    "v6_base": {
+      "ppr_alpha": 0.3,
+      "airing_prior_beta": 0.25,
+      "recency_half_life_weeks": 4.0,
+      "training_signal": "soft: weight = screen_time, pairs with screen_time >= 0.1",
+      "slot_habits_lambda": 2.0,
+      "score": "slot / max + lambda * v5 / max"
+    },
+    "candidates": "v6 top-50 + slot_ui top-50 + user's pool history, at most 100",
+    "features": [
+      "v6_rank",
+      "v6_score",
+      "v5_ppr",
+      "slot_ui_pw",
+      "slot_norm",
+      "soft_freq_pw",
+      "hard_freq_pw",
+      "weeks_since_last",
+      "n_airings_target_pw",
+      "n_airings_train_pw",
+      "watched_share",
+      "popularity_pw",
+      "category_share",
+      "channel_share",
+      "cbf_cosine",
+      "user_activity_pw"
+    ],
+    "label": "5..1 for truth places 1-5, else 0",
+    "lgbm_params": {
+      "objective": "lambdarank",
+      "num_leaves": 31,
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "random_state": 42,
+      "n_jobs": 1,
+      "deterministic": true,
+      "force_row_wise": true,
+      "verbose": -1
+    },
+    "versions": {
+      "lightgbm": "4.7.0",
+      "scikit-learn": "1.9.1"
+    },
+    "trained_on": "4030 cohort-C users, features weeks 11-20, labels weeks 21-30",
+    "applied_to": {
+      "split": "test",
+      "train_weeks": [
+        11,
+        30
+      ],
+      "target_weeks": [
+        31,
+        42
+      ],
+      "users": 1260,
+      "candidates": 124746,
+      "users_with_candidates": 1258,
+      "mean_candidates": 99.2,
+      "build_s": 7.85
+    }
+  },
+  "validation": {
+    "oof_map@5_A": 0.393562,
+    "oof_map@5_C": 0.354267,
+    "gain_over_v6_A_95ci": [
+      0.005124,
+      0.01532
+    ],
+    "map@5_C_outside_A": 0.338576,
+    "protocol": "features weeks 11-20, labels weeks 21-30, two folds over cohort C (seed 42), out-of-fold"
+  },
+  "submission": "submissions/submission_v7.csv",
+  "md5": "d0e51925c3911a9174817c3de129e94c",
+  "md5_matches_results_validation": true,
+  "validation_errors": [],
+  "runtime_s": {
+    "rerank_script_total": 43.42,
+    "final_fit_and_predict": 15.7
+  },
+  "seed": 42,
+  "kaggle_submissions": {
+    "scoring_rule": {
+      "primary_score": "kaggle_private",
+      "reference_only": "kaggle_public",
+      "rule": "the exam grades only the best Kaggle PRIVATE score; public is reported for reference only (clarified by the author on 2026-10-23; exam_quiz_GSB.md in the folder still has the older wording about public)"
+    },
+    "source": "scores reported by the user; not verified by this pipeline (no Kaggle access from here)",
+    "metric": "MAP@5, higher is better",
+    "best_private": {
+      "name": "v7",
+      "file": "submission_v7.csv",
+      "kaggle_private": 0.43671,
+      "kaggle_public_reference": 0.43802
+    },
+    "chosen_is_best_private": true,
+    "submissions": [
+      {
+        "name": "final (v1)",
+        "file": "submission_final.csv",
+        "description": "PPR alpha 0.3",
+        "kaggle_private": 0.39806,
+        "validation_map@5_A": 0.354913,
+        "kaggle_public": 0.40746,
+        "md5_of_file_now": "0c3f221d01a484c8c6b7b910925cd1da"
+      },
+      {
+        "name": "v2",
+        "file": "submission_v2.csv",
+        "description": "PPR + airing prior beta 0.25 + recency H 4",
+        "kaggle_private": 0.39944,
+        "validation_map@5_A": 0.366742,
+        "kaggle_public": 0.40299,
+        "md5_of_file_now": "90d862a059c25042fd091c96ad9b082e"
+      },
+      {
+        "name": "v5",
+        "file": "submission_v5.csv",
+        "description": "v2 + soft training signal",
+        "kaggle_private": 0.41627,
+        "validation_map@5_A": 0.377609,
+        "kaggle_public": 0.42955,
+        "md5_of_file_now": "adaf2ae754f051acc5a03efb5f86a327",
+        "submitted_version": "soft training signal, T_min 0.1 (rebuilt version)",
+        "submitted_md5": "adaf2ae754f051acc5a03efb5f86a327",
+        "submitted_version_source": "confirmed by the author on 2026-10-23"
+      },
+      {
+        "name": "v6",
+        "file": "submission_v6.csv",
+        "description": "v5 + channel x hour slot habits",
+        "kaggle_private": 0.4244,
+        "validation_map@5_A": 0.383484,
+        "kaggle_public": 0.43613,
+        "md5_of_file_now": "8ae175719e567561c28b417166fcc336",
+        "submitted_version": "slot habits, lambda 2 (rebuilt version)",
+        "submitted_md5": "8ae175719e567561c28b417166fcc336",
+        "submitted_version_source": "confirmed by the author on 2026-10-23"
+      },
+      {
+        "name": "v7",
+        "file": "submission_v7.csv",
+        "description": "LGBMRanker on top of v6",
+        "kaggle_private": 0.43671,
+        "validation_map@5_A": 0.393562,
+        "kaggle_public": 0.43802,
+        "md5_of_file_now": "d0e51925c3911a9174817c3de129e94c"
+      }
+    ]
+  },
+  "previous_final_v1": {
+    "method": "ppr",
+    "variant": "alpha=0.3",
+    "config": {
+      "alpha": 0.3,
+      "top_neighbours": 50,
+      "tol": 1e-06,
+      "max_iter": 200,
+      "batch_users": 1024,
+      "restart": "watched-airing counts per programme, normalised"
+    },
+    "selection": {
+      "rule": "highest MAP@5 on cohort A among each family's selected variant; exact tie -> fewer components",
+      "validation_map@5_A": 0.354913,
+      "validation_map@5_C": 0.317993,
+      "candidates": [
+        {
+          "family": "ppr",
+          "variant": "alpha=0.3",
+          "map@5_A": 0.354913,
+          "map@5_C": 0.317993
+        },
+        {
+          "family": "hybrid",
+          "variant": "w=1",
+          "map@5_A": 0.354913,
+          "map@5_C": 0.317993
+        },
+        {
+          "family": "popularity",
+          "variant": "popularity",
+          "map@5_A": 0.235699,
+          "map@5_C": 0.213795
+        },
+        {
+          "family": "mf",
+          "variant": "f64_reg0.01_a10",
+          "map@5_A": 0.167461,
+          "map@5_C": 0.161546
+        }
+      ]
+    },
+    "train_weeks": [
+      11,
+      30
+    ],
+    "pool": "ISO weeks 31-42",
+    "pool_size": 6642,
+    "users": 1260,
+    "fill": {
+      "users": 1260,
+      "users_without_own_ids": 4,
+      "users_topped_up": 4,
+      "slots_from_popularity": 20
+    },
+    "convergence": {
+      "batches": 2,
+      "iterations": [
+        7,
+        7
+      ],
+      "all_converged": true,
+      "one_step_mass_change_max": 1.0436096431476471e-14,
+      "final_mass_error_max": 3.6637359812630166e-15
+    },
+    "submission": "submissions/submission_final.csv",
+    "md5": "0c3f221d01a484c8c6b7b910925cd1da",
+    "identical_to": [
+      "submission_ppr.csv"
+    ],
+    "validation_errors": [],
+    "seed": 42,
+    "runtime_s": 0.96
+  }
+}

@@ -1,0 +1,6 @@
+2026-10-22 01:11:37,931 | 09_hybrid | INFO | w 0.00  {'map@5_A': 0.167461, 'map@5_C': 0.161546, 'history_share_A': 0.8217}  fill {'users': 4030, 'users_without_own_ids': 59, 'users_topped_up': 59, 'slots_from_popularity': 295}
+2026-10-22 01:11:38,249 | 09_hybrid | INFO | w 0.25  {'map@5_A': 0.232206, 'map@5_C': 0.214816, 'history_share_A': 0.9296}  fill {'users': 4030, 'users_without_own_ids': 59, 'users_topped_up': 59, 'slots_from_popularity': 295}
+2026-10-22 01:11:38,567 | 09_hybrid | INFO | w 0.50  {'map@5_A': 0.308638, 'map@5_C': 0.278251, 'history_share_A': 0.9628}  fill {'users': 4030, 'users_without_own_ids': 59, 'users_topped_up': 59, 'slots_from_popularity': 295}
+2026-10-22 01:11:38,881 | 09_hybrid | INFO | w 0.75  {'map@5_A': 0.346348, 'map@5_C': 0.311831, 'history_share_A': 0.9739}  fill {'users': 4030, 'users_without_own_ids': 59, 'users_topped_up': 59, 'slots_from_popularity': 295}
+2026-10-22 01:11:39,197 | 09_hybrid | INFO | w 1.00  {'map@5_A': 0.354913, 'map@5_C': 0.317993, 'history_share_A': 0.9779}  fill {'users': 4030, 'users_without_own_ids': 59, 'users_topped_up': 59, 'slots_from_popularity': 295}
+2026-10-22 01:11:39,197 | 09_hybrid | INFO | checks {'w=0 equals MF': {'users_identical': 4030, 'users': 4030}, 'w=1 equals PPR': {'users_identical': 4030, 'users': 4030}}; best w 1.00

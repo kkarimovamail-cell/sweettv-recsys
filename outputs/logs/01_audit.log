@@ -1,0 +1,69 @@
+2026-10-22 00:39:26,417 | 01_audit | INFO | log read: 5821987 rows
+2026-10-22 00:39:39,179 | 01_audit | INFO | tz -3h          starts  6.99%  ends  6.99%
+2026-10-22 00:39:39,207 | 01_audit | INFO | tz -2h          starts  6.97%  ends  6.87%
+2026-10-22 00:39:39,236 | 01_audit | INFO | tz -1h          starts  6.96%  ends  6.76%
+2026-10-22 00:39:39,264 | 01_audit | INFO | tz +0h          starts  7.23%  ends  9.01%
+2026-10-22 00:39:39,293 | 01_audit | INFO | tz +1h          starts  6.65%  ends  6.48%
+2026-10-22 00:39:39,322 | 01_audit | INFO | tz +2h          starts  6.59%  ends  6.63%
+2026-10-22 00:39:39,350 | 01_audit | INFO | tz +3h          starts  6.46%  ends  6.43%
+2026-10-22 00:39:39,380 | 01_audit | INFO | tz dst_-2h/-3h  starts  7.02%  ends  6.96%
+2026-10-22 00:39:39,408 | 01_audit | INFO | tz dst_+2h/+3h  starts  6.52%  ends  6.47%
+2026-10-22 00:39:53,727 | 01_audit | INFO | log read: 5821987 rows
+2026-10-22 00:40:06,561 | 01_audit | INFO | tz -3h          starts  6.99%  ends  6.99%
+2026-10-22 00:40:06,589 | 01_audit | INFO | tz -2h          starts  6.97%  ends  6.87%
+2026-10-22 00:40:06,618 | 01_audit | INFO | tz -1h          starts  6.96%  ends  6.76%
+2026-10-22 00:40:06,648 | 01_audit | INFO | tz +0h          starts  7.23%  ends  9.01%
+2026-10-22 00:40:06,677 | 01_audit | INFO | tz +1h          starts  6.65%  ends  6.48%
+2026-10-22 00:40:06,707 | 01_audit | INFO | tz +2h          starts  6.59%  ends  6.63%
+2026-10-22 00:40:06,735 | 01_audit | INFO | tz +3h          starts  6.46%  ends  6.43%
+2026-10-22 00:40:06,762 | 01_audit | INFO | tz dst_-2h/-3h  starts  7.02%  ends  6.96%
+2026-10-22 00:40:06,791 | 01_audit | INFO | tz dst_+2h/+3h  starts  6.52%  ends  6.47%
+2026-10-22 00:40:09,520 | 01_audit | INFO | cached log.parquet: 5821987 rows, 83.4 MB
+2026-10-22 00:40:09,767 | 01_audit | INFO | cached schedule_11-20.parquet: 1074235 rows, 13.3 MB
+2026-10-22 00:40:10,021 | 01_audit | INFO | cached schedule_21-30.parquet: 1074394 rows, 13.4 MB
+2026-10-22 00:40:10,304 | 01_audit | INFO | cached schedule_31-42.parquet: 1295378 rows, 15.8 MB
+2026-10-22 00:40:25,174 | 01_audit | INFO | log read: 5821987 rows
+2026-10-22 00:40:37,926 | 01_audit | INFO | tz -3h          starts  6.99%  ends  6.99%
+2026-10-22 00:40:37,955 | 01_audit | INFO | tz -2h          starts  6.97%  ends  6.87%
+2026-10-22 00:40:37,984 | 01_audit | INFO | tz -1h          starts  6.96%  ends  6.76%
+2026-10-22 00:40:38,013 | 01_audit | INFO | tz +0h          starts  7.23%  ends  9.01%
+2026-10-22 00:40:38,042 | 01_audit | INFO | tz +1h          starts  6.65%  ends  6.48%
+2026-10-22 00:40:38,071 | 01_audit | INFO | tz +2h          starts  6.59%  ends  6.63%
+2026-10-22 00:40:38,099 | 01_audit | INFO | tz +3h          starts  6.46%  ends  6.43%
+2026-10-22 00:40:38,128 | 01_audit | INFO | tz dst_-2h/-3h  starts  7.02%  ends  6.96%
+2026-10-22 00:40:38,157 | 01_audit | INFO | tz dst_+2h/+3h  starts  6.52%  ends  6.47%
+2026-10-22 00:40:38,831 | 01_audit | INFO | cached log.parquet: 5821987 rows, 83.4 MB
+2026-10-22 00:40:39,096 | 01_audit | INFO | cached schedule_11-20.parquet: 1074235 rows, 13.3 MB
+2026-10-22 00:40:39,343 | 01_audit | INFO | cached schedule_21-30.parquet: 1074394 rows, 13.4 MB
+2026-10-22 00:40:39,654 | 01_audit | INFO | cached schedule_31-42.parquet: 1295378 rows, 15.8 MB
+2026-10-22 00:40:39,655 | 01_audit | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/data_audit.json in 18.4 s
+2026-10-22 00:42:05,020 | 01_audit | INFO | log read: 5821987 rows
+2026-10-22 00:42:19,290 | 01_audit | INFO | tz -3h          starts  6.99%  ends  6.99%
+2026-10-22 00:42:19,318 | 01_audit | INFO | tz -2h          starts  6.97%  ends  6.87%
+2026-10-22 00:42:19,346 | 01_audit | INFO | tz -1h          starts  6.96%  ends  6.76%
+2026-10-22 00:42:19,373 | 01_audit | INFO | tz +0h          starts  7.23%  ends  9.01%
+2026-10-22 00:42:19,401 | 01_audit | INFO | tz +1h          starts  6.65%  ends  6.48%
+2026-10-22 00:42:19,429 | 01_audit | INFO | tz +2h          starts  6.59%  ends  6.63%
+2026-10-22 00:42:19,456 | 01_audit | INFO | tz +3h          starts  6.46%  ends  6.43%
+2026-10-22 00:42:19,485 | 01_audit | INFO | tz dst_-2h/-3h  starts  7.02%  ends  6.96%
+2026-10-22 00:42:19,512 | 01_audit | INFO | tz dst_+2h/+3h  starts  6.52%  ends  6.47%
+2026-10-22 00:42:20,181 | 01_audit | INFO | cached log.parquet: 5821987 rows, 83.4 MB
+2026-10-22 00:42:20,424 | 01_audit | INFO | cached schedule_11-20.parquet: 1074235 rows, 13.3 MB
+2026-10-22 00:42:20,655 | 01_audit | INFO | cached schedule_21-30.parquet: 1074394 rows, 13.4 MB
+2026-10-22 00:42:20,932 | 01_audit | INFO | cached schedule_31-42.parquet: 1295378 rows, 15.8 MB
+2026-10-22 00:42:20,933 | 01_audit | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/data_audit.json in 19.7 s
+2026-10-22 00:42:54,600 | 01_audit | INFO | log read: 5821987 rows
+2026-10-22 00:43:09,131 | 01_audit | INFO | tz -3h          starts  6.99%  ends  6.99%
+2026-10-22 00:43:09,159 | 01_audit | INFO | tz -2h          starts  6.97%  ends  6.87%
+2026-10-22 00:43:09,187 | 01_audit | INFO | tz -1h          starts  6.96%  ends  6.76%
+2026-10-22 00:43:09,215 | 01_audit | INFO | tz +0h          starts  7.23%  ends  9.01%
+2026-10-22 00:43:09,242 | 01_audit | INFO | tz +1h          starts  6.65%  ends  6.48%
+2026-10-22 00:43:09,270 | 01_audit | INFO | tz +2h          starts  6.59%  ends  6.63%
+2026-10-22 00:43:09,298 | 01_audit | INFO | tz +3h          starts  6.46%  ends  6.43%
+2026-10-22 00:43:09,325 | 01_audit | INFO | tz dst_-2h/-3h  starts  7.02%  ends  6.96%
+2026-10-22 00:43:09,353 | 01_audit | INFO | tz dst_+2h/+3h  starts  6.52%  ends  6.47%
+2026-10-22 00:43:10,040 | 01_audit | INFO | cached log.parquet: 5821987 rows, 83.4 MB
+2026-10-22 00:43:10,300 | 01_audit | INFO | cached schedule_11-20.parquet: 1074235 rows, 13.3 MB
+2026-10-22 00:43:10,548 | 01_audit | INFO | cached schedule_21-30.parquet: 1074394 rows, 13.4 MB
+2026-10-22 00:43:10,826 | 01_audit | INFO | cached schedule_31-42.parquet: 1295378 rows, 15.8 MB
+2026-10-22 00:43:10,831 | 01_audit | INFO | saved /Users/kamila/Desktop/MidTerm_Q2/sweettv-recsys/outputs/data_audit.json in 20.1 s

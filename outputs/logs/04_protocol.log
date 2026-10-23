@@ -1,0 +1,144 @@
+2026-10-22 00:53:11,680 | 04_protocol | INFO | data accounting:
+{
+  "cohort_sizes": {
+    "A": 1150,
+    "C": 4030,
+    "C_sampled": false,
+    "log_users_with_5plus": 4030
+  },
+  "submission_users_by_truth_size": {
+    "total": 1260,
+    "5plus": 1150,
+    "1_to_4": 88,
+    "0": 22
+  },
+  "cold_start_no_watched_in_train": {
+    "val_cohort_A": 10,
+    "val_cohort_C": 59,
+    "test_submission_users": 4
+  },
+  "pool_sizes": {
+    "val": {
+      "programmes": 6376,
+      "watched_in_train": 1881
+    },
+    "test": {
+      "programmes": 6642,
+      "watched_in_train": 2855
+    }
+  },
+  "gap_weeks_25_27": {
+    "gap_weeks": [
+      25,
+      27
+    ],
+    "watched_airings_weeks_21_30": 295026,
+    "of_them_in_gap_weeks": 34613,
+    "cohort_A": {
+      "truth_watched_airings": 44684,
+      "truth_watched_airings_in_gap_weeks": 7141,
+      "would_lose_5plus_without_gap_weeks": 22
+    },
+    "cohort_C": {
+      "truth_watched_airings": 137996,
+      "truth_watched_airings_in_gap_weeks": 18953,
+      "would_lose_5plus_without_gap_weeks": 105
+    }
+  }
+}
+2026-10-22 00:53:27,246 | 04_protocol | INFO | data accounting:
+{
+  "cohort_sizes": {
+    "A": 1150,
+    "C": 4030,
+    "C_sampled": false,
+    "log_users_with_5plus": 4030
+  },
+  "submission_users_by_truth_size": {
+    "total": 1260,
+    "5plus": 1150,
+    "1_to_4": 88,
+    "0": 22
+  },
+  "cold_start_no_watched_in_train": {
+    "val_cohort_A": 10,
+    "val_cohort_C": 59,
+    "test_submission_users": 4
+  },
+  "pool_sizes": {
+    "val": {
+      "programmes": 6376,
+      "watched_in_train": 1881
+    },
+    "test": {
+      "programmes": 6642,
+      "watched_in_train": 2855
+    }
+  },
+  "gap_weeks_25_27": {
+    "gap_weeks": [
+      25,
+      27
+    ],
+    "watched_airings_weeks_21_30": 295026,
+    "of_them_in_gap_weeks": 34613,
+    "cohort_A": {
+      "truth_watched_airings": 44684,
+      "truth_watched_airings_in_gap_weeks": 7141,
+      "would_lose_5plus_without_gap_weeks": 22
+    },
+    "cohort_C": {
+      "truth_watched_airings": 137996,
+      "truth_watched_airings_in_gap_weeks": 18953,
+      "would_lose_5plus_without_gap_weeks": 105
+    }
+  }
+}
+2026-10-22 01:00:40,725 | 04_protocol | INFO | data accounting:
+{
+  "cohort_sizes": {
+    "A": 1150,
+    "C": 4030,
+    "C_sampled": false,
+    "log_users_with_5plus": 4030
+  },
+  "submission_users_by_truth_size": {
+    "total": 1260,
+    "5plus": 1150,
+    "1_to_4": 88,
+    "0": 22
+  },
+  "cold_start_no_watched_in_train": {
+    "val_cohort_A": 10,
+    "val_cohort_C": 59,
+    "test_submission_users": 4
+  },
+  "pool_sizes": {
+    "val": {
+      "programmes": 6376,
+      "watched_in_train": 1881
+    },
+    "test": {
+      "programmes": 6642,
+      "watched_in_train": 2855
+    }
+  },
+  "gap_weeks_25_27": {
+    "gap_weeks": [
+      25,
+      27
+    ],
+    "watched_airings_weeks_21_30": 295026,
+    "of_them_in_gap_weeks": 34613,
+    "cohort_A": {
+      "truth_watched_airings": 44684,
+      "truth_watched_airings_in_gap_weeks": 7141,
+      "would_lose_5plus_without_gap_weeks": 22
+    },
+    "cohort_C": {
+      "truth_watched_airings": 137996,
+      "truth_watched_airings_in_gap_weeks": 18953,
+      "would_lose_5plus_without_gap_weeks": 105
+    }
+  }
+}

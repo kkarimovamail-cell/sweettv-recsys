@@ -1,0 +1,93 @@
+{
+  "rule": {
+    "watch_threshold": 0.8,
+    "time_shift_hours": 0,
+    "week": "ISO week of airing start",
+    "merge": "sessions of one user on one channel merged when start < running max stop"
+  },
+  "sessions": {
+    "raw": 5821987,
+    "exact_duplicate_rows_raw": 17,
+    "after_merge": 5725415,
+    "merged_away": 96572,
+    "merged_sessions_with_2plus_raw": 44174
+  },
+  "airings": {
+    "train_schedule_rows": 2148629,
+    "duplicate_channel_start_removed": 1,
+    "labelled_airings": 237118,
+    "labelled_overlapping_next_on_channel": 0
+  },
+  "pairs": {
+    "total": 3014129,
+    "watched": 611760,
+    "users": 4895,
+    "users_with_watched": 4841,
+    "programmes": 4363,
+    "programmes_watched": 3866,
+    "pairs_with_2plus_sessions": 433746,
+    "by_week_watched": {
+      "11": 26189,
+      "12": 33344,
+      "13": 34419,
+      "14": 31464,
+      "15": 29046,
+      "16": 28158,
+      "17": 27214,
+      "18": 27431,
+      "19": 43593,
+      "20": 35876,
+      "21": 32637,
+      "22": 32547,
+      "23": 28367,
+      "24": 27489,
+      "25": 13732,
+      "26": 9948,
+      "27": 10933,
+      "28": 48511,
+      "29": 49302,
+      "30": 41560
+    }
+  },
+  "screen_time_histogram": {
+    "[0.0,0.1)": 1153290,
+    "[0.1,0.2)": 367235,
+    "[0.2,0.3)": 233269,
+    "[0.3,0.4)": 176668,
+    "[0.4,0.5)": 145527,
+    "[0.5,0.6)": 122637,
+    "[0.6,0.7)": 106531,
+    "[0.7,0.8)": 97212,
+    "[0.8,0.9)": 90390,
+    "[0.9,1.0]": 521370,
+    "exactly_1.0": 421613
+  },
+  "watched_pairs_by_threshold": {
+    "0.5": 938140,
+    "0.8": 611760,
+    "0.9": 521370
+  },
+  "submission_cold_start": {
+    "submission_users": 1260,
+    "no_watched_weeks_le_20": 18,
+    "no_watched_weeks_le_30": 4,
+    "no_pair_at_all_weeks_le_30": 2,
+    "pairs_from_week_10_airings": 0
+  },
+  "items": {
+    "rows": 9671,
+    "schedule_duplicate_channel_start_removed": 1,
+    "items_with_several_tv_show_title": 4351,
+    "items_with_several_tv_show_category": 0,
+    "items_with_several_tv_show_genre_1": 80,
+    "items_with_several_tv_show_genre_2": 80,
+    "items_with_several_tv_show_genre_3": 16,
+    "items_with_several_director": 48,
+    "items_with_several_actors": 174
+  },
+  "runtime": {
+    "prepare_s": 2.9,
+    "join_s": 0.9,
+    "total_s": 7.6
+  }
+}

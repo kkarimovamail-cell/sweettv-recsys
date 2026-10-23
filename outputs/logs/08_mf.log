@@ -1,0 +1,19 @@
+2026-10-22 01:06:25,878 | 08_mf | INFO | environment: {'implicit': '0.7.3', 'numpy_blas': 'accelerate', 'OPENBLAS_NUM_THREADS': '1', 'VECLIB_MAXIMUM_THREADS': '1', 'num_threads': 1, 'gpu': False}
+2026-10-22 01:06:26,211 | 08_mf | INFO | val matrix: 4737 users x 2499 items, 115126 non-zeros; pool items with a factor: 1881 of 6376
+2026-10-22 01:06:27,542 | 08_mf | INFO | f64_reg0.01_a10        {'map@5_A': 0.167461, 'map@5_C': 0.161546, 'history_share_A': 0.8217}  fit 0.85 s
+2026-10-22 01:06:28,831 | 08_mf | INFO | f64_reg0.01_a40        {'map@5_A': 0.101223, 'map@5_C': 0.105854, 'history_share_A': 0.555}  fit 0.82 s
+2026-10-22 01:06:30,135 | 08_mf | INFO | f64_reg0.1_a10         {'map@5_A': 0.166736, 'map@5_C': 0.160682, 'history_share_A': 0.8283}  fit 0.83 s
+2026-10-22 01:06:31,434 | 08_mf | INFO | f64_reg0.1_a40         {'map@5_A': 0.106058, 'map@5_C': 0.109177, 'history_share_A': 0.5826}  fit 0.83 s
+2026-10-22 01:06:32,527 | 08_mf | INFO | best f64_reg0.01_a10; reproducibility {'user_factors_identical': True, 'item_factors_identical': True, 'max_abs_factor_diff': 0.0, 'predictions_identical': True, 'map_again': {'map@5_A': 0.167461, 'map@5_C': 0.161546}}
+2026-10-22 01:06:34,062 | 08_mf | INFO | final matrix (4841, 3866); fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; submission_mf.csv: OK
+2026-10-22 01:10:54,679 | 08_mf | INFO | environment: {'implicit': '0.7.3', 'numpy_blas': 'accelerate', 'OPENBLAS_NUM_THREADS': '1', 'VECLIB_MAXIMUM_THREADS': '1', 'num_threads': 1, 'gpu': False}
+2026-10-22 01:10:55,024 | 08_mf | INFO | val matrix: 4737 users x 2499 items, 115126 non-zeros; pool items with a factor: 1881 of 6376
+2026-10-22 01:10:56,378 | 08_mf | INFO | f64_reg0.01_a10        {'map@5_A': 0.167461, 'map@5_C': 0.161546, 'history_share_A': 0.8217}  fit 0.84 s
+2026-10-22 01:10:57,688 | 08_mf | INFO | f64_reg0.01_a40        {'map@5_A': 0.101223, 'map@5_C': 0.105854, 'history_share_A': 0.555}  fit 0.82 s
+2026-10-22 01:10:58,993 | 08_mf | INFO | f64_reg0.1_a10         {'map@5_A': 0.166736, 'map@5_C': 0.160682, 'history_share_A': 0.8283}  fit 0.82 s
+2026-10-22 01:11:00,307 | 08_mf | INFO | f64_reg0.1_a40         {'map@5_A': 0.106058, 'map@5_C': 0.109177, 'history_share_A': 0.5826}  fit 0.83 s
+2026-10-22 01:11:01,410 | 08_mf | INFO | best f64_reg0.01_a10; reproducibility {'user_factors_identical': True, 'item_factors_identical': True, 'max_abs_factor_diff': 0.0, 'predictions_identical': True, 'map_again': {'map@5_A': 0.167461, 'map@5_C': 0.161546}}
+2026-10-22 01:11:02,660 | 08_mf | INFO | off-grid counts_f64_reg0.01_a1    {'map@5_A': 0.178954, 'map@5_C': 0.171451, 'history_share_A': 0.9565}
+2026-10-22 01:11:03,968 | 08_mf | INFO | off-grid binary_f64_reg0.01_a10   {'map@5_A': 0.185087, 'map@5_C': 0.177158, 'history_share_A': 0.8628}
+2026-10-22 01:11:05,281 | 08_mf | INFO | off-grid log1p_f64_reg0.01_a10    {'map@5_A': 0.191238, 'map@5_C': 0.181744, 'history_share_A': 0.8957}
+2026-10-22 01:11:06,825 | 08_mf | INFO | final matrix (4841, 3866); fill {'users': 1260, 'users_without_own_ids': 4, 'users_topped_up': 4, 'slots_from_popularity': 20}; submission_mf.csv: OK

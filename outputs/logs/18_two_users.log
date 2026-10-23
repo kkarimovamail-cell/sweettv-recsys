@@ -1,0 +1,4 @@
+2026-10-23 19:34:08,608 | 18_two_users | INFO | v6 rebuilt, MAP@5 A 0.383484 = stored
+2026-10-23 19:34:08,618 | 18_two_users | INFO | v7 rebuilt, MAP@5 A 0.393562 = stored
+2026-10-23 19:34:08,654 | 18_two_users | INFO | heavy 10500740270951698446 (904), light 10120801182216576239 (0)
+2026-10-23 19:34:09,610 | 18_two_users | INFO | saved two_users.md; AP@5 {'10500740270951698446': {'label': 'Самый активный', 'watched_airings_11_20': 904, 'popularity': 0.2, 'ppr': 0.76, 'mf': 0.0, 'cbf': 0.2, 'v6': 0.6, 'v7': 0.6}, '10120801182216576239': {'label': 'Самый малоактивный', 'watched_airings_11_20': 0, 'popularity': 0.2, 'ppr': 0.2, 'mf': 0.2, 'cbf': 0.2, 'v6': 0.2, 'v7': 0.2}}

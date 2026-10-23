@@ -1,0 +1,24 @@
+2026-10-22 01:48:03,686 | 14_signal | INFO | threshold_0.5   A 0.373664 C 0.337806 up/down {'users_up': 310, 'users_down': 235, 'users_same': 605} dA [0.002428, 0.01142] C-A 0.323487 pairs 515792 same-as-v2 605
+2026-10-22 01:48:05,391 | 14_signal | INFO | threshold_0.65  A 0.372470 C 0.334397 up/down {'users_up': 232, 'users_down': 182, 'users_same': 736} dA [0.002335, 0.009467] C-A 0.319194 pairs 407186 same-as-v2 1122
+2026-10-22 01:48:06,997 | 14_signal | INFO | threshold_0.8   A 0.366742 C 0.329417 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.314513 pairs 316734 same-as-v2 4030
+2026-10-22 01:48:08,919 | 14_signal | INFO | soft_0.3        A 0.375220 C 0.340084 up/down {'users_up': 310, 'users_down': 211, 'users_same': 629} dA [0.004321, 0.012934] C-A 0.326053 pairs 715538 same-as-v2 684
+2026-10-22 01:48:10,743 | 14_signal | INFO | soft_0.5        A 0.373820 C 0.336653 up/down {'users_up': 259, 'users_down': 188, 'users_same': 703} dA [0.003457, 0.011148] C-A 0.321813 pairs 515792 same-as-v2 931
+2026-10-22 01:48:10,744 | 14_signal | INFO | best soft_0.3 accepted True
+2026-10-22 01:48:12,260 | 14_signal | INFO | v5: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'mode': 'soft', 't': 0.3, 'train_weeks': [11, 30], 'fill': {'users': 1260, 'users_without_own_ids': 3, 'users_topped_up': 3, 'slots_from_popularity': 15}, 'converged': True, 'submission': 'submission_v5.csv', 'md5': '9dd4f77c67d28945d379ee7733a9f073', 'validation_errors': [], 'runtime_s': 1.52}
+2026-10-22 01:52:39,559 | 14_signal | INFO | threshold_0.5   A 0.373664 C 0.337806 up/down {'users_up': 310, 'users_down': 235, 'users_same': 605} dA [0.002428, 0.01142] C-A 0.323487 pairs 515792 same-as-v2 605
+2026-10-22 01:52:41,269 | 14_signal | INFO | threshold_0.65  A 0.372470 C 0.334397 up/down {'users_up': 232, 'users_down': 182, 'users_same': 736} dA [0.002335, 0.009467] C-A 0.319194 pairs 407186 same-as-v2 1122
+2026-10-22 01:52:42,894 | 14_signal | INFO | threshold_0.8   A 0.366742 C 0.329417 up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0] C-A 0.314513 pairs 316734 same-as-v2 4030
+2026-10-22 01:52:45,527 | 14_signal | INFO | soft_0          A 0.377333 C 0.341823 up/down {'users_up': 336, 'users_down': 229, 'users_same': 585} dA [0.005771, 0.015702] C-A 0.327644 pairs 1824096 same-as-v2 553
+2026-10-22 01:52:47,776 | 14_signal | INFO | soft_0.1        A 0.377609 C 0.341646 up/down {'users_up': 336, 'users_down': 216, 'users_same': 598} dA [0.006067, 0.015871] C-A 0.327286 pairs 1093616 same-as-v2 581
+2026-10-22 01:52:49,722 | 14_signal | INFO | soft_0.3        A 0.375220 C 0.340084 up/down {'users_up': 310, 'users_down': 211, 'users_same': 629} dA [0.004321, 0.012934] C-A 0.326053 pairs 715538 same-as-v2 684
+2026-10-22 01:52:51,567 | 14_signal | INFO | soft_0.5        A 0.373820 C 0.336653 up/down {'users_up': 259, 'users_down': 188, 'users_same': 703} dA [0.003457, 0.011148] C-A 0.321813 pairs 515792 same-as-v2 931
+2026-10-22 01:52:51,567 | 14_signal | INFO | best soft_0.1 accepted True
+2026-10-22 01:52:51,582 | 14_signal | INFO | threshold_0.5   vs v5 (soft_0.3): up/down {'users_up': 143, 'users_down': 152, 'users_same': 855} dA [-0.004226, 0.001235]
+2026-10-22 01:52:51,597 | 14_signal | INFO | threshold_0.65  vs v5 (soft_0.3): up/down {'users_up': 174, 'users_down': 212, 'users_same': 764} dA [-0.006041, 0.000473]
+2026-10-22 01:52:51,612 | 14_signal | INFO | threshold_0.8   vs v5 (soft_0.3): up/down {'users_up': 211, 'users_down': 310, 'users_same': 629} dA [-0.012934, -0.004321]
+2026-10-22 01:52:51,626 | 14_signal | INFO | soft_0          vs v5 (soft_0.3): up/down {'users_up': 133, 'users_down': 109, 'users_same': 908} dA [-0.000142, 0.004444]
+2026-10-22 01:52:51,641 | 14_signal | INFO | soft_0.1        vs v5 (soft_0.3): up/down {'users_up': 114, 'users_down': 89, 'users_same': 947} dA [0.000298, 0.004609]
+2026-10-22 01:52:51,656 | 14_signal | INFO | soft_0.3        vs v5 (soft_0.3): up/down {'users_up': 0, 'users_down': 0, 'users_same': 1150} dA [0.0, 0.0]
+2026-10-22 01:52:51,671 | 14_signal | INFO | soft_0.5        vs v5 (soft_0.3): up/down {'users_up': 118, 'users_down': 149, 'users_same': 883} dA [-0.003986, 0.001316]
+2026-10-22 01:52:51,672 | 14_signal | INFO | current v5 soft_0.3, rebuild True
+2026-10-22 01:52:53,630 | 14_signal | INFO | v5: {'alpha': 0.3, 'beta': 0.25, 'half_life': '4', 'mode': 'soft', 't': 0.1, 'train_weeks': [11, 30], 'fill': {'users': 1260, 'users_without_own_ids': 2, 'users_topped_up': 2, 'slots_from_popularity': 10}, 'converged': True, 'submission': 'submission_v5.csv', 'md5': 'adaf2ae754f051acc5a03efb5f86a327', 'validation_errors': [], 'runtime_s': 1.96}

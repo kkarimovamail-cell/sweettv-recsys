@@ -1,0 +1,5 @@
+2026-10-23 19:19:10,192 | 17_rerank_v8 | INFO | v7 reproduced: {'map@5_A': 0.393562, 'map@5_C': 0.354267}
+2026-10-23 19:19:20,282 | 17_rerank_v8 | INFO | exp1 binary {'map@5_A': 0.392614, 'map@5_C': 0.355973, 'vs_v7_A': {'users_up': 222, 'users_down': 235, 'users_same': 693}, 'delta_vs_v7_mean': -0.000948, 'delta_vs_v7_95ci': [-0.005131, 0.003041], 'map@5_C_minus_A': 0.341341, 'runtime_s': 10.07} -> keep False
+2026-10-23 19:20:16,463 | 17_rerank_v8 | INFO | exp2 graded, ensemble: {'map@5_A': 0.393693, 'map@5_C': 0.355899, 'vs_v7_A': {'users_up': 163, 'users_down': 153, 'users_same': 834}, 'delta_vs_v7_mean': 0.00013, 'delta_vs_v7_95ci': [-0.003006, 0.002959], 'map@5_C_minus_A': 0.340808, 'runtime_s': 56.16}
+2026-10-23 19:20:27,981 | 17_rerank_v8 | INFO | exp2 graded, single_bagged_seed42: {'map@5_A': 0.393383, 'map@5_C': 0.355039, 'vs_v7_A': {'users_up': 184, 'users_down': 190, 'users_same': 776}, 'delta_vs_v7_mean': -0.00018, 'delta_vs_v7_95ci': [-0.00347, 0.003084], 'map@5_C_minus_A': 0.339728, 'runtime_s': 11.5}
+2026-10-23 19:20:27,981 | 17_rerank_v8 | INFO | keep binary False, keep ensemble False -> final v7 (graded, single)
